@@ -3,7 +3,6 @@ name: Build and Deploy to Github Pages
 on:
   push:
     branches:
-      - main
       - change/fix-animation-format # Here source code branch is `master`, it could be other branch
 
 jobs:
